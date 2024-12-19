@@ -13,8 +13,6 @@ var isPalindrome = function (x) {
   return x == half || x == Math.floor(half / 10);
 };
 
-// console.log(isPalindrome(121));
-// console.log(isPalindrome(-121));
-// console.log(isPalindrome(10));
-console.log(isPalindrome(15651));
-
+console.log(isPalindrome(121));
+console.log(isPalindrome(-121));
+console.log(isPalindrome(10));
